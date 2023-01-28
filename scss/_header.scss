@@ -1,0 +1,21 @@
+header{
+    position: relative;
+    z-index: 44;
+    .header__content{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding-top: 2.4rem;
+    }
+    
+    .my_name{
+        font-weight: 600;
+        font-size: 2rem;
+        color: aliceblue;
+    }
+    ul{
+        display: flex;
+        column-gap: 1.9rem;
+    }
+}

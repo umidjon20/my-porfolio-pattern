@@ -1,0 +1,303 @@
+@import 'general';
+@import 'header';
+@import 'section';
+@import 'footer';
+
+@media only screen and(max-width:900px){
+    .container{
+        padding: 0 30px;
+    }
+    header, section, footer{
+        height: auto !important;
+    }
+    
+header .header__content{
+    width: 95%;
+    padding: 29px 30px 0;
+}
+    
+.promo .content__left h1{
+    font-size: 72px;
+}
+.promo .content__right .photo_desktop{
+        display: none;
+    }
+    .promo .content__right .photo_tablet{
+        display: block;
+    }
+    .promo .content__left{
+        align-self: flex-end;
+    }
+    
+
+    
+.promo .content__right .circle{
+    border-top:none;
+    border-right: none;
+    border-bottom:none;
+    left: 260px;
+    bottom: 0;
+    display: none;
+}
+
+.dev__experience .all{
+    justify-content: space-evenly;
+}
+
+.projects{
+    justify-content: center;
+}
+
+.projects .all__projects{
+    justify-content: space-evenly;
+}
+.dev__experience .all .evryone{
+    width: 280px;
+}
+    .projects .mini__header{
+      
+        width: 90%;
+    }
+    .projects .mini__header h4{
+        font-size: 72px;
+    }
+    
+.projects .all__projects .size .hover{
+    display: none;
+}
+.projects .all__projects .size .see__project{
+    display: block;
+    display: flex;
+}
+
+
+
+.projects .all__projects .size .desktop{
+    display: none;
+}
+.projects .all__projects .size .tablet{
+    display: block;
+}
+}
+
+
+@media only screen and(max-width:800px){
+    .container{
+        padding: 0 30px;
+    }
+    
+    .promo .content__left{
+        margin: 0;
+    } 
+.promo .content__left h1{
+    text-align: center;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -2.04545px;
+
+}
+
+.promo .content__left p{
+    text-align: center;
+}
+
+.dev__experience .all{
+    justify-content: space-between;
+}
+    .dev__experience .all .evryone{
+
+        width: 280px;
+    }
+    
+footer .contact__me{
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 3rem;
+    
+    
+    
+}
+
+footer .contact__me .contact{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+footer .footer__header{
+    width: 90%;
+}
+
+}
+@media only screen and(max-width:768px){
+    .wrapper{
+        background-position:-150px 3%, right 25%
+    }
+      
+.promo .content__left h1{
+    font-size: 72px;
+    line-height: 64px;
+}
+
+.dev__experience .all{
+    width: 100%;
+    justify-content: center;
+}
+    
+.projects .all__projects{
+    
+    justify-content: center;
+}
+footer .contact__me{
+
+    column-gap: 3rem;
+   }
+   footer .contact__me .contact{
+       width: 50%;
+   
+   }
+   
+   footer .contact__me .about__your__project{
+       width: 50%;
+   }
+}
+
+
+
+@media only screen and(max-width:700px){
+    
+
+header .header__content {
+    justify-content: space-evenly;
+}
+    .promo{
+        flex-direction: column-reverse;
+    }
+    
+.promo .content__left{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+    .promo .content__right .photo_tablet {
+        max-width: 300px;
+    }
+}
+
+
+
+
+
+
+@media only screen and(max-width:600px){
+    .promo .content__right .photo_tablet{
+        display: none;
+    }
+    .promo .content__right .photo_mobile{
+        display: block;
+    }
+    .wrapper .body_circle{
+        display: block;
+        right: -45px;
+    }
+    .wrapper{
+        overflow: hidden;
+        background-position:-180px 3%, right 35%
+    }
+    .wrapper header {
+        justify-content: center;
+        padding: 0;
+    }
+
+header .header__content{
+    width: 100%;
+    flex-direction: column;
+}
+
+header .my_name{
+    font-size: 24px;
+letter-spacing: -0.333333px;
+}
+
+    .promo{
+             flex-direction: column-reverse;
+        }
+        .promo .content__left{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+           
+        }
+        
+        .promo .content__left p{
+            width: 343px;
+            align-self:center;
+        }
+        .promo .content__left .btn{
+            align-self:center;
+        }
+        .dev__experience .all .evryone h5{
+            font-size: 32px;
+
+            text-align: center;
+            letter-spacing: -1px;
+        }
+        .wrapper .projects{
+            border-top: 1px solid #ffffff;
+        }
+        .projects .mini__header{
+            padding-top: 5rem;
+        }
+        .projects .mini__header h4 {
+            font-size: 40px;
+            letter-spacing: -1.13636px;
+
+}
+.projects .all__projects .project__name{
+           font-size: 24px;
+}
+        
+.dev__experience .all .evryone p {
+            font-size: 16px;
+            text-align: center;
+}
+footer{
+    padding-bottom: 50px;
+    background-position: -100px 66%;
+}
+footer .contact__me{
+
+ column-gap: 3rem;
+}
+footer .contact__me .contact{
+    width: 50%;
+
+}
+
+footer .contact__me .about__your__project{
+    width: 50%;
+}
+        footer .contact__me .about__your__project h6{
+            font-size: 40px;
+            line-height: 40px;
+
+            text-align: center;
+            letter-spacing: -1.13636px;
+        }
+        footer .contact__me .about__your__project p{
+            height: 78px;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+        }
+        
+footer .footer__header {
+    margin-top: 5.4rem;
+          padding-top: 2.3rem;
+            flex-direction: column;
+            align-items: center;
+            font-size: 24px; 
+            letter-spacing: -0.333333px;
+        }
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    box-sizing:border-box;
+   
+}
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    background: rgb(24, 23, 23);
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+
+}
+a{
+    color: inherit;
+}
+.container{
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+    background-image: url(../img/back-lines/line-top.png),
+    url(../img/back-lines/line-middle.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 4%, right 30%;
+    overflow-x: hidden;
+
+}
+.body_circle{
+    position: absolute;
+    width: 129px;
+    height: 129px;
+    border-radius:50%;
+    border:1px solid #ffffff;
+    top: 4.5%;
+    right: -30px;
+ display: none;
+}
+.btn{
+    width: max-content;
+    height: 30px;
+    border-bottom:2px solid #4EE1A0;
+
+    button{
+       font-family:  'Space Grotesk', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 2.28571px;
+        color: #FFFFFF;
+        background: none;
+        border: none;
+        text-transform: uppercase;
+        &:hover{
+            cursor: pointer;
+            color: #4EE1A0;
+        }
+       }
+}
+.isHover{
+    width: max-content;
+    // height: 36px;
+    // border:0;
+    border-bottom:2px solid #4EE1A0;
+    text-align: center;
+    
+
+   
+    a{padding-bottom: 10px;
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: 2.28571px;
+        color: #FFFFFF;
+        background: none;
+        // border: none;
+        text-transform: uppercase;
+        
+       
+        &:hover{
+            cursor: pointer;
+            color: #4EE1A0;
+        }
+       }
+}
+.liner{
+    width: max-content;
+    height: 36px;
+    // border:0;
+    border-bottom:2px solid #4EE1A0;
+    
+    
+
+   
+    a{padding-bottom: 10px;
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: 2.28571px;
+        color: #FFFFFF;
+        background: none;
+        // border: none;
+        text-transform: uppercase;
+        
+       
+        &:hover{
+            cursor: pointer;
+            color: #4EE1A0;
+        }
+       }
+}
+.size{
+    .see__project{
+        width: 270px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        display:none;
+    }
+    .tablet{
+        display: none;
+
+    }
+}
+
